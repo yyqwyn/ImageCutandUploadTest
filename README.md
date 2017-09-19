@@ -9,3 +9,15 @@
 3.由原来点击按钮更换图片更换为点击图片直接更换头像
 4.修改头像存储在手机本地/sdcard/myHead/head.jpg,下次启动仍可显示
  参考：http://blog.csdn.net/xiaoyuan511/article/details/39205591
+ 
+ 引用说明：
+ 需添加权限
+ <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+Gradle
+
+dependencies {
+    ...
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+}
