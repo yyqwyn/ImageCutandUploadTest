@@ -14,7 +14,7 @@
   4.修改头像存储在手机本地/sdcard/myHead/head.jpg,下次启动仍可显示<br>
    参考：http://blog.csdn.net/xiaoyuan511/article/details/39205591<br>
  
-  ##需添加权限
+  需添加权限
   -------
  <uses-permission android:name="android.permission.CAMERA"/>
  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
