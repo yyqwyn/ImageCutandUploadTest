@@ -8,13 +8,14 @@
 =
     2017年9月19日18:01:58
   ##修改内容：
-  1.添加操作权限，相机，SD卡，本地文件
-  2.添加圆形图片引用https://github.com/hdodenhof/CircleImageView
-  3.由原来点击按钮更换图片更换为点击图片直接更换头像
-  4.修改头像存储在手机本地/sdcard/myHead/head.jpg,下次启动仍可显示
-   参考：http://blog.csdn.net/xiaoyuan511/article/details/39205591
+  1.添加操作权限，相机，SD卡，本地文件<br>
+  2.添加圆形图片引用https://github.com/hdodenhof/CircleImageView<br>
+  3.由原来点击按钮更换图片更换为点击图片直接更换头像<br>
+  4.修改头像存储在手机本地/sdcard/myHead/head.jpg,下次启动仍可显示<br>
+   参考：http://blog.csdn.net/xiaoyuan511/article/details/39205591<br>
  
   ##需添加权限
+  -------
  <uses-permission android:name="android.permission.CAMERA"/>
  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
  <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
