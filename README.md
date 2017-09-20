@@ -27,3 +27,5 @@ dependencies {
     ...
     compile 'de.hdodenhof:circleimageview:2.1.0'
 }
+
+BUG待修改：测试机位Android5.1,结果6.0及以上版本权限报错，需修正
